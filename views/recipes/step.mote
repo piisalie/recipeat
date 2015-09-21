@@ -1,0 +1,13 @@
+<step>
+
+  % if step.has_ingredients?
+  <ingredient>
+    {{ step.ingredients }}
+  </ingredients>
+  % end
+
+  <directions>
+    {{ step.directions }}
+  </direction>
+
+</step>
