@@ -1,1 +1,17 @@
-{{id}}
+<recipe>
+
+  <name>
+    {{ recipe.title }}
+  </name>
+
+  <description>
+    {{ recipe.description }}
+  </description>
+
+  <ingredients>
+    {{ recipe.ingredients }}
+  </ingredients>
+
+  <a href="{{recipe.id}}-step-1">Start</a>
+
+</recipe>
